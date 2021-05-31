@@ -380,6 +380,8 @@ lines between paragraphs.
 
 Figure and table captions should be 9-point Roman type as in
 Figures~\ref{fig:onecol} and~\ref{fig:short}.  Short captions should be centred.
+Captions of figures are placed below the figure, those of tables are placed
+above (\cf Table~\ref{tab:results}).
 
 \noindent Callouts should be 9-point Helvetica, non-boldface type.
 Initially capitalize only the first word of section titles and first-,
@@ -419,6 +421,8 @@ editors of referenced books.
 
 \begin{table}
 \begin{center}
+\caption{Results.   Ours is better.}
+\label{tab:results}
 \begin{tabular}{|l|c|}
 \hline
 Method & Frobnability \\
@@ -429,7 +433,6 @@ Ours & Makes one's heart Frob\\
 \hline
 \end{tabular}
 \end{center}
-\caption{Results.   Ours is better.}
 \end{table}
 
 %-------------------------------------------------------------------------
